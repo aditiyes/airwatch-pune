@@ -1,6 +1,6 @@
 # AirWatch Pune
 
-AirWatch Pune is an AI-powered air-quality forecasting and health-advisory dashboard for Pune. It blends current pollution data, recent history, and next-72-hour forecasting to help users understand pollution risks and plan safer outdoor activities.
+AirWatch Pune is a demo air-quality forecasting and health-advisory dashboard for Pune. It uses generated sample pollution data and forecast logic; it does not currently fetch live sensor data or train a machine-learning model.
 
 ## Features
 
@@ -32,7 +32,7 @@ Then open: http://localhost:8000
 
 ## Deploying
 
-This project is ready to be hosted on Render, Railway, or any Python-capable app platform. A sample Dockerfile is included for container deployment.
+This project is ready to be hosted on Render or any Python-capable app platform. The Render Blueprint uses the platform-provided port; a sample Dockerfile is included for container deployment.
 
 ```bash
 docker build -t airwatch-pune .
