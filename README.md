@@ -2,6 +2,10 @@
 
 AirWatch Pune is a demo air-quality forecasting and health-advisory dashboard for Pune. It uses generated sample pollution data and forecast logic; it does not currently fetch live sensor data or train a machine-learning model.
 
+## Live demo
+
+Visit **[AirWatch Pune](https://airwatch-pune.onrender.com)**.
+
 ## Features
 
 - Pune location selector with area-specific profiling
